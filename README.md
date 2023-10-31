@@ -13,5 +13,5 @@ PULSE_API_KEY=...
 
 4. `npm install`
    - NOTE: You <u>MUST</u> install with npm, not yarn, the next websocket extension requires it
-5. `npm run generate`
+5. `dotenv -e .env.local -- npx prisma db push`
 6. `npm run dev`
