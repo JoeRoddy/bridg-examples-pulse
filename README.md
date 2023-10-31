@@ -7,7 +7,6 @@
 3. Open `.env.local` and add your DB connection string and Pulse API key:
 
 ```
-BRIDG_API=ws://localhost:3000/api/socket
 DATABASE_URL=postgres://postgres...your..db..
 PULSE_API_KEY=<YOUR_API_KEY_HERE>
 ```

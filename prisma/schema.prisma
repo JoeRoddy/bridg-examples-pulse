@@ -5,7 +5,7 @@ generator client {
 generator bridg {
   provider = "bridg"
   pulse    = true
-  api      = env("BRIDG_API")
+  api      = "ws://localhost:3000/api/bridg-socket"
 }
 
 datasource db {
