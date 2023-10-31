@@ -1,0 +1,34 @@
+import { DbRules } from 'bridg/server';
+
+// https://github.com/joeroddy/bridg#database-rules
+export const rules: DbRules = {
+  // global default, allow/block non-specified queries, set to true only in development
+  default: true,
+  // tableName: false | true,       - block/allow all queries on a table
+  // user: {
+  //   default: true,
+  //   find: {
+  //     // rule: { name: 'hi' },
+  //     // blockedFields: ['email', 'image'],
+  //   },
+  // },
+  // user: {
+  //   // find: (uid) => ({ id: uid }) - query based authorization
+  //   find: (uid) => false,
+  //   update: (uid, data) => false,
+  //   create: (uid, data) => false,
+  //   delete: (uid) => false,
+  // },
+  // blog: {
+  //   find: (uid) => false,
+  //   update: (uid, data) => false,
+  //   create: (uid, data) => false,
+  //   delete: (uid) => false,
+  // },
+  // comment: {
+  //   find: (uid) => false,
+  //   update: (uid, data) => false,
+  //   create: (uid, data) => false,
+  //   delete: (uid) => false,
+  // },
+};
